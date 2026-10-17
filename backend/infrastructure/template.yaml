@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Serverless infrastructure for Personalized Weather Report and Alert System
+
+Resources:
+  WeatherLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: WeatherLambdaRole
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/AmazonSESFullAccess
+
+  WeatherAlertFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: WeatherAlertFunction
+      Handler: backend/lambda_function.lambda_handler
+      Runtime: python3.12
+      Timeout: 15
+      Role: !GetAtt WeatherLambdaRole.Arn
+      Events:
+        DailyScheduledTrigger:
+          Type: Schedule
+          Properties:
+            Schedule: cron(30 1 * * ? *)
+            Name: DailyWeatherTrigger
