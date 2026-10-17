@@ -13,7 +13,7 @@ An enterprise-grade, serverless cloud application that automates real-time globa
 | Student Name | Register Number | Project Guide | Role & Contribution |
 | :--- | :--- | :--- | :--- |
 | **Sri Harish P** | 44110805 | Dr. P. Rajasekar | System Architecture, AWS Lambda Core Pipeline & EventBridge Triggers |
-| **Srivarshini V** | 44110814 | Dr. S. Prince Mary | Weather & Air Quality API Integration, Local Timezone Processing[ |
+| **Srivarshini V** | 44110814 | Dr. S. Prince Mary | Weather & Air Quality API Integration, Local Timezone Processing |
 | **Surya A** | 44110832 | Dr. T. Prem Jacob | Amazon SES Configuration, Responsive HTML Template Design & AWS IAM Security |
 
 ---
