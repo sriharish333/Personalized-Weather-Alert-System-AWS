@@ -5,16 +5,16 @@ An enterprise-grade, serverless cloud application that automates real-time globa
 ---
 
 ## 🏛️ Academic & Team Details
-* **Institution:** Sathyabama Institute of Science and Technology (Deemed to be University)[cite: 1]
-* **Department:** Department of Computer Science and Engineering[cite: 1, 2]
-* **Course:** Professional Training - I (PT-1)[cite: 1, 2]
-* **Domain:** AWS Cloud Computing[cite: 1]
+* **Institution:** Sathyabama Institute of Science and Technology (Deemed to be University)
+* **Department:** Department of Computer Science and Engineering
+* **Course:** Professional Training - I (PT-1)
+* **Domain:** AWS Cloud Computing
 
 | Student Name | Register Number | Project Guide | Role & Contribution |
 | :--- | :--- | :--- | :--- |
-| **Sri Harish P** | 44110805 | Dr. P. Rajasekar[cite: 1] | System Architecture, AWS Lambda Core Pipeline & EventBridge Triggers[cite: 1, 2] |
-| **Srivarshini V** | 44110814 | Dr. S. Prince Mary | Weather & Air Quality API Integration, Local Timezone Processing[cite: 2] |
-| **Surya A** | 44110832 | Dr. T. Prem Jacob | Amazon SES Configuration, Responsive HTML Template Design & AWS IAM Security[cite: 2] |
+| **Sri Harish P** | 44110805 | Dr. P. Rajasekar | System Architecture, AWS Lambda Core Pipeline & EventBridge Triggers |
+| **Srivarshini V** | 44110814 | Dr. S. Prince Mary | Weather & Air Quality API Integration, Local Timezone Processing[ |
+| **Surya A** | 44110832 | Dr. T. Prem Jacob | Amazon SES Configuration, Responsive HTML Template Design & AWS IAM Security |
 
 ---
 
