@@ -48,3 +48,15 @@ An enterprise-grade, serverless cloud application that automates real-time globa
 ├── infrastructure/
 │   └── template.yaml          # AWS SAM/CloudFormation Infrastructure as Code
 └── README.md                  # Comprehensive project report & setup documentation
+
+---
+
+## 📸 Output Demonstration
+
+### AWS Lambda & EventBridge Architecture
+![AWS Architecture](aws_architecture.png)
+
+---
+
+### Delivered HTML Weather & Air Quality Digest
+![Email Digest](email_output.png)
