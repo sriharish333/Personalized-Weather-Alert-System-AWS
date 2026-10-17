@@ -49,7 +49,6 @@ An enterprise-grade, serverless cloud application that automates real-time globa
 │   └── template.yaml          # AWS SAM/CloudFormation Infrastructure as Code
 └── README.md                  # Comprehensive project report & setup documentation
 
----
 
 ## 📸 Output Demonstration
 
